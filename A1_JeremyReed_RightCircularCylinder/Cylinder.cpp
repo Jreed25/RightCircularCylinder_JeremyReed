@@ -1,14 +1,10 @@
-// Implementation file for the Cylinder class
-#include "Cylinder.h"	// Needed for cylinder class
+#include "Cylinder.h"	
 #include <iostream>
 #include <cstdlib>
 #include <math.h>
 using namespace std;
 
-//*************************************************************************
-// The constructor initializes radius and height to 0, and pi to 3.14159. *
-//*************************************************************************
-
+// Construct initialize
 Cylinder::Cylinder()
 {
 	radius = 0.0;		
@@ -16,10 +12,8 @@ Cylinder::Cylinder()
 	pi = 3.14159;
 }
 
-//**********************************************************
-// setRadius sets the value of the member variable radius. *
-//**********************************************************
 
+// Set Functions
 void Cylinder::setRadius(double r)
 {
 	if (r >= 0)
@@ -31,9 +25,7 @@ void Cylinder::setRadius(double r)
 	}
 }
 
-//**********************************************************
-// setHeight sets the value of the member variable height. *
-//**********************************************************
+
 void Cylinder::setHeight(double h)
 {
 	if (h >= 0)
@@ -45,36 +37,24 @@ void Cylinder::setHeight(double h)
 	}
 }
 
-//*************************************************************
-// getRadius returns the value in the member variable radius. *
-//*************************************************************
-
+// Get Functions
 double Cylinder::getRadius() const
 {
 	return radius;
 }
 
-//*************************************************************
-// getHeight returns the value in the member variable height. *
-//*************************************************************
 
 double Cylinder::getHeight() const
 {
 	return height;
 }
 
-//************************************************************************
-// getSurfaceArea returns the value in the member variable surface area. * 
-//************************************************************************
 
 double Cylinder::getSurfaceArea() const
 {
-	return 2 * pi * pow(radius, 2.0) + 2 * (pi * radius * height);
+	return 2 * pi * pow(radius, 2.0) + 2 * (pi * radius * height); 
 }
 
-//***********************************************************
-// getVolume returns the value in the member variable area. *
-//***********************************************************
 
 double Cylinder::getVolume() const
 {

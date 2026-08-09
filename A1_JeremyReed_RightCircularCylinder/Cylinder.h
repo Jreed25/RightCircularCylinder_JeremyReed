@@ -1,8 +1,5 @@
-// Specification file for the Cylinder class.
 #ifndef CYLINDER_H
 #define CYLINDER_H
-
-// Cylinder class declaration
 
 class Cylinder
 {
@@ -11,7 +8,7 @@ private:
 	double height;
 	double pi;
 public:
-	Cylinder();	// Default constructor
+	Cylinder();	
 	void setRadius(double);
 	void setHeight(double);
 	double getRadius() const;
