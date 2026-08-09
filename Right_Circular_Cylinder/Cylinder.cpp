@@ -1,10 +1,10 @@
 #include "Cylinder.h"	
 #include <iostream>
 #include <cstdlib>
-#include <math.h>
+#include <cmath>
 using namespace std;
 
-// Construct initialize
+
 Cylinder::Cylinder()
 {
 	radius = 0.0;		
@@ -13,7 +13,6 @@ Cylinder::Cylinder()
 }
 
 
-// Set Functions
 void Cylinder::setRadius(double r)
 {
 	if (r >= 0)
@@ -37,7 +36,7 @@ void Cylinder::setHeight(double h)
 	}
 }
 
-// Get Functions
+
 double Cylinder::getRadius() const
 {
 	return radius;
@@ -52,11 +51,13 @@ double Cylinder::getHeight() const
 
 double Cylinder::getSurfaceArea() const
 {
+	// Surface area = 2(pi)r^2 + 2(pi)rh
 	return 2 * pi * pow(radius, 2.0) + 2 * (pi * radius * height); 
 }
 
 
 double Cylinder::getVolume() const
 {
+	// Volume = (pi)(r^2)h
 	return pi * pow(radius, 2.0) * height;
 }
