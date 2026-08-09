@@ -1,5 +1,14 @@
-#Right_Circular_Cylinder_Program
+# C++ Cylinder Calculator
 
-# This program gets user input of a cylinders radius and height
-# then returns the surface area and volume of the cylinder
+A C++ program that calculates the surface area and volume
+of a right circular cylinder based on user-provided dimensions.
+
+## Concepts Demonstrated
+
+- Object-oriented programming
+- Classes and encapsulation
+- Constructors
+- Getters and setters
+- Input validation
+- Mathematical calculations
 
