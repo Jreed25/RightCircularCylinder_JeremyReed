@@ -13,10 +13,10 @@ int main()
 	Cylinder c;
 
 
-	cout << "Enter the Cylinder's radius: ";
+	cout << "Enter the cylinder's radius: ";
 	cin >> radius;
 	c.setRadius(radius);
-	cout << "Enter the Cylinder's height: ";
+	cout << "Enter the cylinder's height: ";
 	cin >> height;
 	c.setHeight(height);
 	
