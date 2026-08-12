@@ -52,6 +52,7 @@ Enter the cylinder's height: 10
 Here is the cylinder's data:
 Radius of the cylinder: 5.00
 Height of the cylinder: 10.00
+
 Surface Area of the cylinder: 471.24
 Volume of the cylinder: 785.40
 ```

@@ -1,31 +1,32 @@
-// Main Implementation
 #include <iostream>
 #include <iomanip>
 #include "Cylinder.h"
-using namespace std;
+
 
 int main()
 {
 	double radius;
 	double height;
 
-
 	Cylinder c;
 
 
-	cout << "Enter the cylinder's radius: ";
-	cin >> radius;
+	std::cout << "Enter the cylinder's radius: ";
+	std::cin >> radius;
 	c.setRadius(radius);
-	cout << "Enter the cylinder's height: ";
-	cin >> height;
+
+	std::cout << "Enter the cylinder's height: ";
+	std::cin >> height;
 	c.setHeight(height);
 	
 
-	cout << "\nHere is the cylinder's data:\n";
-	cout << "Radius of the cylinder: " << c.getRadius() << endl;
-	cout << "Height of the cylinder: " << c.getHeight() << endl << endl;
-	cout << "Surface Area of the cylinder: " << setprecision(2) << fixed << showpoint << c.getSurfaceArea() << endl;
-	cout << "Volume of the cylinder: " << setprecision(2) << fixed << showpoint << c.getVolume() << endl << endl;
+	std::cout << "\nHere is the cylinder's data:\n";
+	std::cout << "Radius of the cylinder: " << c.getRadius() << "\n";
+	std::cout << "Height of the cylinder: " << c.getHeight() << "\n\n";
+	
+	std::cout << std::fixed << std::setprecision(2);
+	std::cout << "Surface Area of the cylinder: " << c.getSurfaceArea() << "\n";
+	std::cout << "Volume of the cylinder: " << c.getVolume() << "\n\n";
 
 
 	return 0;

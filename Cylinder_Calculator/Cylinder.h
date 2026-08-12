@@ -7,10 +7,13 @@ private:
 	double radius;
 	double height;
 	double pi;
+	
 public:
 	Cylinder();	
-	void setRadius(double);
-	void setHeight(double);
+
+	void setRadius(double radius);
+	void setHeight(double height);
+
 	double getRadius() const;
 	double getHeight() const;
 	double getSurfaceArea() const;
