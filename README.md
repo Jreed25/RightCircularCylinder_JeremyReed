@@ -34,7 +34,7 @@ Cylinder_Calculator/
 Compile the program with:
 
 ```bash
-g++ Cylinder_calculator/main.cpp Cylinder_calculator/Cylinder.cpp -o main
+g++ Cylinder_Calculator/main.cpp Cylinder_Calculator/Cylinder.cpp -o main
 ```
 
 Run it with:
