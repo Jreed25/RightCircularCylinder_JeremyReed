@@ -4,7 +4,7 @@ A C++ program that calculates the surface area and volume of a right circular cy
 
 ## Features
 
-* Accept radius and height from the user
+* Accepts radius and height from the user
 * Validate radius and height values
 * Calculate cylinder surface area
 * Calculate cylinder volume
@@ -23,10 +23,11 @@ A C++ program that calculates the surface area and volume of a right circular cy
 ## Project Structure
 
 ```text
-Cylinder_Calculator/
-├── main.cpp
-├── Cylinder.cpp
-└── Cylinder.h
+cylinder-calculator/
+└── src/
+    ├── main.cpp
+    ├── Cylinder.cpp
+    └── Cylinder.h
 ```
 
 ## How to Run
@@ -34,7 +35,7 @@ Cylinder_Calculator/
 Compile the program with:
 
 ```bash
-g++ Cylinder_Calculator/main.cpp Cylinder_Calculator/Cylinder.cpp -o main
+g++ src/main.cpp src/Cylinder.cpp -o main
 ```
 
 Run it with:
@@ -57,8 +58,5 @@ Surface Area of the cylinder: 471.24
 Volume of the cylinder: 785.40
 ```
 
-## Author
-
-Jeremy Reed
 
 
